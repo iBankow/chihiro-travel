@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Body } from "./components/Body";
 import { Header } from "./components/Header";
 import { Main } from "./components/Main";
 import logo from "./public/logo.svg";
@@ -9,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Main />
+      <Body />
     </div>
   );
 }
